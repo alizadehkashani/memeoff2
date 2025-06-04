@@ -1,3 +1,7 @@
 :root {
 	--light-blue: #4ab7dd;
 }
+
+div {
+	font-family: 'Courier New', monospace;
+}

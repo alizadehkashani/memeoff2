@@ -15,7 +15,7 @@ html {
 	display: grid;
 	place-items: center;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr 2fr;
 
 	padding: 25px;
 
@@ -29,10 +29,47 @@ html {
 
 #logon_form_container {
 	display: grid;
+	place-items: center left;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: repeat(7, 1fr);
 
 	row-gap: 10px;
 
 
+}
+
+#logon_form_remember_login_container {
+	display: grid;
+	place-items: center;
+	grid-template-columns: 1fr 5fr;
+}
+
+.login_input_label {
+	font-size: 40px;
+
+}
+
+.login_input {
+	font-size: 40px;
+	height: 80px;
+	width: 400px;
+	border-radius: 40px;
+	padding: 15px;
+}
+
+.login_label {
+	font-size: 40px;
+}
+
+#login_button {
+	font-family: 'Courier New', monospace;
+	background-color: var(--light-blue);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: none;
+}
+
+#input_remember {
+	height: 30px;
+	width: 30px;
 }

@@ -21,10 +21,16 @@
 			<div id="logo_login_container">
 				<div><img src="lib/login/assets/smglogo.png"></img></div>
 				<div id="logon_form_container">
-					<input type="text" id="input_user"></input>
-					<input type="password" id="input_password"></input>
-					<input type="button" id="button_login" value="login"></input>
-					<input type="checkbox" id="input_remember"></input>
+					<div class="login_input_label">Username</div>
+					<input type="text" id="input_user" class="login_input"></input>
+					<div class="login_input_label">Password</div>
+					<input type="password" id="input_password" class="login_input"></input>
+					<input class="login_input" type="button" id="login_button" value="login"></input>
+					<div id="logon_form_remember_login_container">
+						<input type="checkbox" id="input_remember"></input>
+						<label class="login_label">Remember me</label>
+					</div>
+					<div id="message">error message here</div>	
 				</div>	
 			</div>
 			<div></div>
