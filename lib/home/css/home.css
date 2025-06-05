@@ -1,0 +1,17 @@
+#main_container {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+
+#main_workspace {
+	flex-grow: 1;
+	background-color: black;
+}
+
+#burger {
+}
+
+#burger_icon {
+	height: 120px;
+}
